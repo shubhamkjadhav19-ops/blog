@@ -75,7 +75,8 @@ public class SecurityConfig {
                 "http://localhost:4200",
                 "https://sjvblog.netlify.app",
                 "https://microservicesblog.netlify.app",
-                "https://generous-warmth.up.railway.app"
+                "https://generous-warmth.up.railway.app",
+                "https://blog-production-3d74.up.railway.app"
         ));
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(List.of("*"));
