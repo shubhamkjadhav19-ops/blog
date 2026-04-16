@@ -72,10 +72,6 @@ public class SecurityConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowedOrigins(List.of(
-                "http://localhost:4200",
-                "https://sjvblog.netlify.app",
-                "https://microservicesblog.netlify.app",
-                "https://generous-warmth.up.railway.app",
                 "https://blog-production-3d74.up.railway.app"
         ));
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
